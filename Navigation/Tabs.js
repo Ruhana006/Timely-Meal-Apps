@@ -29,7 +29,13 @@ const Tabs = () => {
                                 tintColor: focused ? COLORS.primary : COLORS.secondary
                             }}
                         />
-                    }
+                    },
+                    
+                    tabBarButton: (props) => (
+                        <TabBarCustomButton
+                            {...props}
+                        />
+                    )
                 }}
             />
         </Tab.Navigator>
