@@ -5,5 +5,5 @@ import OrderDelivery from './OrderDelivery';
 export {
     Home,
     Restaurant,
-    OrderDelivery
+    OrderDelivery,
 }
