@@ -203,6 +203,7 @@ const Tabs = () => {
                             }}
                         />
                     ),
+                    
                     tabBarButton: (props) => (
                         <TabBarCustomButton
                             {...props}
